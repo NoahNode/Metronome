@@ -5,6 +5,7 @@ import Metronome from './Metronome';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<Metronome />, document.getElementById('root'));
+document.body.style = 'background: grey;';
 
 // If you want your App to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
